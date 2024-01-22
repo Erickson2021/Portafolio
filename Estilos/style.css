@@ -1,0 +1,851 @@
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* *********************/
+/* seccion I N I C I O */
+/* *********************/
+
+#inicio {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("https://www.fundaciontelefonica.com/wp-content/uploads/2022/09/portada-dia-programador-2560x950-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+/* Hacer que la imagen de fondo ocupe todo el ancho */
+#inicio .contenido {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#inicio .contenido img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Esto asegura que la imagen se ajuste correctamente en el contenedor */
+}
+
+#inicio .contenido header {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1 {
+    text-align: center;
+    color: #50f3ff;
+}
+
+#inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header nav ul li a:hover {
+    color: #1CB698;
+}
+
+#inicio .contenido header .contenido-header .redes a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover {
+    color: #ff5080;
+}
+
+#inicio .contenido header .contenido-header .seleccionado {
+    color: yellow;
+}
+
+#inicio .contenido .presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span {
+    font-size: 50px;
+    color: lightblue;
+    
+}
+
+#inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#inicio .contenido .presentacion a:hover {
+    background-color: #1CB698;
+}
+
+#icono-nav {
+    color: #fff;
+    display: none;
+}
+
+/* *********************/
+/* seccion S O B R E  M I */
+/* *********************/
+
+.sobremi {
+    background-color: black;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.sobremi .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sobremi h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.sobremi .contenido-seccion p {
+    font-size: 25px;
+    line-height: 22px;
+    margin-bottom: 20px;
+
+}
+
+.sobremi .contenido-seccion p span {
+    color: #1CB698;
+    font-weight: bold;
+}
+
+.sobremi .fila {
+    display: flex;
+}
+
+.sobremi .fila .col {
+    width: 50%;
+}
+
+.sobremi .fila .col h3 {
+    font-size: 50px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.sobremi .fila .col ul {
+    list-style: none;
+}
+
+.sobremi .fila .col ul li {
+    margin: 12px 0;
+}
+
+.sobremi .fila .col ul li strong {
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+
+.sobremi .fila .col ul li span {
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.sobremi .fila .col .contenedor-intereses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes {
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes:hover {
+    background-color: #1CB698;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes i {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* *********************/
+/*BOTONES CV y REPOSITORIO*/
+/* *********************/
+
+.sobremi .botones-container {
+    text-align: center;
+}
+
+.sobremi button,
+.sobremi button.repositorio-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    margin: 20px 10px;
+    /* Ajusta el margen según sea necesario */
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+}
+
+.sobremi button .overlay,
+.sobremi button.repositorio-btn .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+
+.sobremi button:hover .overlay,
+.sobremi button.repositorio-btn:hover .overlay {
+    width: 100%;
+}
+
+
+
+/* SECCION S K I L L S */
+.skills {
+    /*background: url("https://www.nextibs.com/wp-content/uploads/2021/12/seguridad-informatica-1024x439.jpeg") center center fixed;*/
+    background: #252A2E;
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.skills .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skills h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.skills .fila {
+    display: flex;
+}
+
+.skills .fila .col {
+    width: 50%;
+    padding: 0 20px;
+    
+}
+
+.skills .fila .col h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.skills .skill>span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skills .skill .barra-skill {
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skills .skill .progreso {
+    background-color: #1CB698;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+
+.skills .skill .barra-skill span {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #1CB698;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+
+
+/* Estas clases se agregaran dinamicamente mediante javascript */
+.skills .skill .javascript {
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.skills .skill .htmlcss {
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+
+@keyframes htmlcss {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 89%;
+    }
+}
+
+.skills .skill .basededatos {
+    width: 0%;
+    animation: 2s basededatos forwards;
+}
+
+@keyframes basededatos {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 55%;
+    }
+}
+
+.skills .skill .angular {
+    width: 0%;
+    animation: 2s angular forwards;
+}
+
+@keyframes angular {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.skills .skill .java {
+    width: 0%;
+    animation: 2s angular forwards;
+}
+
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.skills .skill .comunicacion {
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+
+@keyframes comunicacion {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.skills .skill .trabajo {
+    width: 0%;
+    animation: 2s trabajo forwards;
+}
+
+@keyframes trabajo {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.skills .skill .creatividad {
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+
+@keyframes creatividad {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 99%;
+    }
+}
+
+.skills .skill .dedicacion {
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+
+@keyframes dedicacion {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+
+
+/* *********************/
+/* SECCION T R A B A J O S */
+.portfolio{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+.portfolio h2{
+    text-align: center;
+    font-size: 50px;
+
+}
+.portfolio nav{
+    text-align: center;
+    margin: 30px 0;
+}
+.portfolio nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: #007be5;
+    font-weight: bold;
+    padding: 3px 10px;
+    border: 3px solid transparent;
+}
+.portfolio nav a:hover{
+    border: 3px solid #ff5b00;
+}
+/* Esta clase se agregrá dinámicamente cuando haya seleccionada una opción */
+.borde{
+    border: 3px solid #ff5b00 !important;  
+}
+.portfolio .galeria .item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.portfolio .galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-gap:30px;
+}
+.portfolio .galeria .item{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #8d8d8d ;
+    border-radius: 10px;
+}
+.portfolio .galeria .item .info{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color:#fff ;
+    width: 100%;
+    padding: 20px;
+    opacity: 0;
+    transition: .3s;
+}
+.portfolio .galeria .item .info h3{
+    color: #000;
+    margin-bottom: 20px;
+}
+.portfolio .galeria .item .info span{
+    color: #8d8d8d;
+    display: inline-block;
+    border: 2px solid #8d8d8d;
+    margin: 0 3px;
+    padding:  0 5px;
+}
+.portfolio .galeria .item .info a{
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    color: #007be5;
+    font-weight: bold;
+}
+.portfolio .galeria .item:hover .info{
+    opacity: 1;
+    top: 0;
+}
+
+/* *********************/
+/* SECCION CONTACTO */
+/* *********************/
+.contacto {
+    background-image: none;
+    /* Elimina la imagen de fondo */
+    background-color: #fff;
+    /* Establece el fondo blanco */
+    color: #000;
+    /* Establece el color de texto a negro */
+    padding: 50px 0;
+}
+.contacto .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contacto h2 {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacto .fila {
+    display: flex;
+}
+
+.contacto .col {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.contacto .col input,
+.contacto .col textarea {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: 3px solid #000;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #000;
+    font-size: 18px;
+}
+
+.contacto button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #000;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #000;
+    position: relative;
+    z-index: 10;
+}
+
+.contacto button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+
+.contacto button:hover .overlay {
+    width: 100%;
+}
+
+.contacto .col img,
+.contacto .col .info {
+    display: none;
+    
+}
+
+.contacto .col .info ul {
+    list-style: none;
+}
+
+.contacto .col .info ul li {
+    margin-bottom: 20px;
+}
+
+.contacto .col .info ul li i {
+    color: #1CB698;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/**/
+footer {
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes {
+    margin-bottom: 20px;
+}
+
+footer .redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+footer .arriba {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+/* *********************/
+/* seccion R E S P O N S I V E */
+/* *********************/
+
+@media screen and (max-width: 800px) {
+    .redes {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.responsive {
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    nav.responsive ul {
+        display: block !important;
+        text-align: center;
+    }
+
+    nav.responsive ul li {
+        margin: 5px 0;
+    }
+
+    #icono-nav {
+        display: block;
+    }
+
+    #inicio .contenido .presentacion h2 {
+        font-size: 40px;
+    }
+
+    /* seccion SOBRE MI */
+    #sobremi {
+        padding: 50px 0;
+        display: block;
+    }
+
+    #sobremi .contenedor-foto {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    #sobremi .contenedor-foto img {
+        padding: 8px;
+    }
+
+    #sobremi .sobremi .titulo-seccion {
+        text-align: center;
+    }
+
+    #sobremi .sobremi h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    @media screen and (max-width:700px){
+        .sobremi .fila{
+            display: block;
+        }
+        .sobremi .fila .col{
+            width: fit-content;
+        }
+    
+        .skills .fila{
+            display: block;
+        }
+        .skills .fila .col{
+            width: auto;
+        }
+        .skills .fila .col .barra-skill{
+            width: auto;
+        }
+    }
+    /* seccion MIS SERVICIOS */
+    #servicios {
+        padding: 50px 15px;
+    }
+
+    #servicios .fila {
+        display: block;
+    }
+
+    #servicios .fila .servicio {
+        margin: 10px auto;
+    }
+
+    /* seccion HABLIDADES MI */
+    .contenedor-skills {
+        padding: 50px 20px;
+    }
+
+    /* seccion PORTFOLIO */
+    #portfolio {
+        padding: 50px 0;
+    }
+
+    #portfolio .fila {
+        display: block;
+    }
+
+    #portfolio .fila .proyecto {
+        margin: 10px auto;
+    }
+
+    /* seccion CONTACTO */
+    #contacto {
+        padding: 50px 15px;
+    }
+
+    #contacto .contenedor-form .mitad {
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    #contacto .contenedor-form .mitad input {
+        width: auto;
+        margin-bottom: 15px;
+    }
+}

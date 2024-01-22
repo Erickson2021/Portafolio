@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./Estilos/style.css">
+
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Erickson Espinoza</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">SKILLS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/erickson-espinoza-285973236/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Erickson2021"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Erickson Espinoza</span>, Desarrollador Web</h2>
+                <p class="descripcion">Junior Software Engineer | JAVA | Sql Server | Full stack  </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Erickson Espinoza.</span> 
+                Egresado de la carrera de Computación e Informática, con destrezas destacadas en liderazgo y colaboración en equipo; 
+                mi enfoque se centra en crecer profesionalmente en el ámbito del desarrollo de software y la administración 
+                de bases de datos. Aspiro a aplicar de manera efectiva los conocimientos adquiridos en el entorno laboral y contribuir significativamente al progreso de la organización.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            23-09-2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            950675655
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            espinozaerickson20@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Av.lima, San Martin de Porres
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Hobby</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-laptop-code"></i>
+                            <span>ESTUDIAR</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="botones-container">
+                <button>
+                    <a href="https://drive.google.com/file/d/1pcjW5kPuGKaMTtgQdtk-DDzh5_uoPfT0/view?usp=drive_link" download>
+                        Descargar CV <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </a>
+                </button>
+
+                <button class="repositorio-btn">
+                    <a href="https://github.com/Erickson2021">
+                        Repositorio <i class="fa-brands fa-github"></i>
+                    </a>
+                    <span class="overlay"></span>
+                </button>
+                
+                
+            </div>
+
+
+    </section>
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL Server | MySql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+               
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="portfolio" id="portfolio">
+        <h2>Mis Trabajos</h2>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="https://merrimackvalley.org/wp-content/uploads/2021/11/nathan-dumlao-6VhPY27jdps-unsplash-scaled.jpg"
+                    alt="">
+                <div class="info">
+                    <h3>Sistema de Ventas Cafeteria</h3>
+                    <span>HTML</span><span>CSS</span><span>JS</span><span>C#</span>
+                    <a href="https://github.com/Erickson2021/sistemaDeVentas">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="https://innovacioneducativa.upc.edu.pe/wp-content/uploads/2023/07/cabeceraia-1170x532.jpg"
+                    alt="">
+                <div class="info">
+                    <h3>MiniBlackboard</h3>
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                    <a href="https://github.com/Erickson2021/MiniBlackboard">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="https://1.bp.blogspot.com/-EtGWMHuWLqw/XThyQ3hLNDI/AAAAAAAAATU/eh2GmY3NjLIW6A24yoBxOGWJbUD-HOTOwCLcBGAs/s1600/2.%2BListado%2Bde%2Batenci%25C3%25B3n.JPG"
+                    alt="">
+                <div class="info">
+                    <h3>Sistema Clinica Salud Vital</h3>
+                    <span>JAVA</span><span>CSS</span>
+                    <a href="https://github.com/Erickson2021/Sistema-Clinica-Salud-Vital">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="https://mexmads.com/wp-content/uploads/2023/05/collage-fondo-pelicula-1.jpg"
+                    alt="">
+                <div class="info">
+                    <h3>Cuevanita - MiniCine</h3>
+                    <span>HTML</span><span>JAVA</span>
+                    <a href="https://github.com/Erickson2021/Cuevanita---MiniCine">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="https://png.pngtree.com/png-vector/20200706/ourlarge/pngtree-app-login-screen-on-a-generic-mobile-phone-png-image_2302043.jpg"
+                    alt="">
+                <div class="info">
+                    <h3>Restaurant-app</h3>
+                    <span>KOTLIN</span>
+                    <a href="https://github.com/Erickson2021/Restaurant-app">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="https://img.pccomponentes.com/pcblog/1673218800000/ordenador-gaming-ejecutar-juegos.jpg"
+                    alt="">
+                <div class="info">
+                    <h3>NewsGamer</h3>
+                    <span>HTML</span><span>CSS</span><span>JS</span>
+                    <a href="https://github.com/Erickson2021/NewsGamer">Ver Trabajo</a>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form 
+                    action="https://formspree.io/f/mqkrarpo"
+                    method="Post">
+                    <input type="text" name="Nombre" placeholder="Nombre y apellido" required>
+                    <input type="text" name="Celular" placeholder="Celular" >
+                    <input type="email" name="Correo" required placeholder="Correo electronico" >
+                    <input type="text" name="Asunto" placeholder="Asunto" >
+                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Escribe tu mensaje..." ></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/erickson-espinoza-285973236/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="./JavaScript/script.js"></script>
+</body>
+
+</html>
