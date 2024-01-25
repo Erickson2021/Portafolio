@@ -81,7 +81,7 @@ html {
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: #ff5080;
+    color: #50c8ff;
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
@@ -202,6 +202,7 @@ html {
 
 .sobremi .fila .col ul li {
     margin: 12px 0;
+    font-family: 'Work Sans';
 }
 
 .sobremi .fila .col ul li strong {
@@ -255,8 +256,8 @@ html {
 .sobremi button,
 .sobremi button.repositorio-btn {
     cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
+    background-color: lightgray;
+    border: 2px solid black;
     width: fit-content;
     margin: 20px 10px;
     /* Ajusta el margen según sea necesario */
@@ -275,7 +276,7 @@ html {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #50f3ff;
     z-index: -1;
     transition: 1s;
 }
@@ -340,7 +341,7 @@ html {
 }
 
 .skills .skill .progreso {
-    background-color: #1CB698;
+    background-color: #50c8ff;
     position: absolute;
     top: 0;
     left: 0;
@@ -351,7 +352,7 @@ html {
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #50c8ff;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
